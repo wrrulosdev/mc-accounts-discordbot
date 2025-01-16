@@ -1,0 +1,59 @@
+{
+  "noPerms": "You do not have permissions for this command.",
+  "invalidUsername": "The Minecraft username entered is invalid.",
+  "categoryNotFound": "Could not get the $category category in the $command command.",
+  "noAccountChannel": "This command is only available on account channels!",
+  "alreadySold": "This account is already sold.",
+  "inactiveAccount": "The account status cannot be changed if it is inactive. To remove inactivity use the /inactive command",
+  "commandError": "There was an error in the command, check the console!",
+  "commands": {
+    "nick": {
+      "description": "Add username to system",
+      "accountExists": "The entered account already exists in the database.",
+      "invalidPrice": "The price value cannot be 0 or negative.",
+      "embed": {
+        "title": "Account added to the system successfully",
+        "description": "The $name account was added to the database."
+      }
+    },
+    "sold": {
+      "description": "Set an account to sold status",
+      "success": "The account status was set to SOLD successfully."
+    },
+    "reserve": {
+      "description": "SSet or remove an account from reservation status",
+      "success": "The account was successfully placed in reserve status.",
+      "removeReservation": "The account was successfully returned to sale status."
+    },
+    "inactive": {
+      "description": "Set or remove an account from inactive status",
+      "success": "The account was successfully placed in inactive status.",
+      "removeInactivity": "The inactive state was successfully removed. It is now in sale status."
+    },
+    "list": {
+      "description": "List minecraft accounts",
+      "embed": {
+        "title": "Account list",
+        "description": "There are currently $accounts accounts in the database.\n",
+        "buttons": {
+          "previous": "Previous",
+          "previousLimit": "You are already on the first page.",
+          "next": "Next",
+          "nextLimit": "You are already on the last page."
+        }
+      }
+    },
+    "status": {
+      "description": "Show the status of account",
+      "accountNotFound": "The account name entered does not exist in the database.",
+      "embed": {
+        "title": "🔰 $name account statement",
+        "description": "List of all account data"
+      }
+    },
+    "remove": {
+      "description": "Delete account from database",
+      "invalidPassword": "The password entered is incorrect."
+    }
+  }
+}
