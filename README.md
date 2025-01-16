@@ -117,8 +117,8 @@ Antes de empezar, asegúrate de tener lo siguiente:
 
    - **Obtener la `REMOVE_PASSWORD`**:
 
-   1. Define una contraseña segura para el comando de eliminación (`remove`).
-   2. Utiliza esta contraseña en tu archivo de configuración como valor para `REMOVE_PASSWORD`.
+     1. Define una contraseña segura para el comando de eliminación (`remove`).
+     2. Utiliza esta contraseña en tu archivo de configuración como valor para `REMOVE_PASSWORD`.
 
 ## Ejecutar el Bot
 
