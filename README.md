@@ -1,4 +1,4 @@
-# Proyecto de Bot de Discord
+# Bot de Discord
 
 ## Requisitos Previos
 
